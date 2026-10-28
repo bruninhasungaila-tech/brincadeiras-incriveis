@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brincadeiras Incríveis | Recreação e Animação de Festas e Eventos</title>
+  <meta name="description" content="Recreação infantil, pintura facial, balões, gincanas e oficinas criativas para festas, escolas e eventos. Reserve seu combo pelo WhatsApp (62) 98456-8686." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="header" id="topo">
+    <div class="container header__inner">
+      <a href="#topo" class="logo" aria-label="Brincadeiras Incríveis">
+        <img src="assets/logo.png" alt="Logotipo Brincadeiras Incríveis" class="logo__img" width="64" height="64" />
+      </a>
+      <nav class="nav" aria-label="Principal">
+        <a href="#combos">Combos</a>
+        <a href="#oficinas">Oficinas</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#faq">Dúvidas</a>
+      </nav>
+      <a class="btn btn--wa btn--sm" id="header-cta" data-wa="Olá! Vim pelo site e quero um orçamento.">Orçamento</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Seção 1: Hero -->
+    <section class="hero">
+      <div class="hero__blobs" aria-hidden="true"><span></span><span></span><span></span></div>
+      <div class="container hero__grid">
+        <div class="hero__content reveal">
+          <span class="pill">⭐ Recreação para festas, escolas e empresas</span>
+          <h1>A Diversão Perfeita para um <span class="highlight">Evento Inesquecível!</span></h1>
+          <p class="hero__sub">Da pintura facial completa às gincanas mais animadas. A Brincadeiras Incríveis leva alegria, materiais de primeira linha e total organização para que as crianças brinquem e os adultos relaxem.</p>
+          <div class="hero__ctas">
+            <a class="btn btn--wa btn--lg" id="hero-cta" data-wa="Olá! Quero falar com a equipe sobre meu evento.">🟢 Falar com a Equipe no WhatsApp</a>
+            <a class="btn btn--ghost btn--lg" href="#combos" id="hero-combos">Ver Combos</a>
+          </div>
+          <ul class="hero__badges">
+            <li>🎨 Material antialérgico</li>
+            <li>🧑‍🎨 Recreadores treinados</li>
+            <li>📦 Levamos tudo</li>
+          </ul>
+        </div>
+        <div class="hero__media reveal">
+          <img src="imagens/WhatsApp Image 2026-10-23 at 20.05.33.jpeg" alt="Recreação infantil na piscina com animadora e crianças em festa de aniversário" width="1080" height="1080" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção 2: Combos -->
+    <section class="section" id="combos">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="pill pill--orange">Nossos Pacotes</span>
+          <h2>Escolha o Combo ideal para a sua festa</h2>
+          <p>Todos os combos podem ser contratados para <b>2h</b> ou <b>3h</b>, com 1 ou 2 recreadores.</p>
+        </header>
+        <div class="combos" id="combos-grid"></div>
+      </div>
+    </section>
+
+    <!-- Seção 3: Oficinas -->
+    <section class="section section--tinted" id="oficinas">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="pill pill--purple">Destaque Criativo</span>
+          <h2>Escolha a oficina perfeita para a sua festa:</h2>
+          <p>Disponíveis nos Combos Verde, Azul e Roxo. As crianças criam e levam a lembrancinha para casa!</p>
+        </header>
+        <div class="carousel reveal">
+          <button class="carousel__btn carousel__btn--prev" id="oficinas-prev" aria-label="Anterior">‹</button>
+          <div class="carousel__track" id="oficinas-track"></div>
+          <button class="carousel__btn carousel__btn--next" id="oficinas-next" aria-label="Próximo">›</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção 4: Depoimentos + FAQ -->
+    <section class="section" id="depoimentos">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="pill pill--magenta">Quem contratou, amou</span>
+          <h2>O que as famílias dizem</h2>
+        </header>
+        <div class="testimonials">
+          <figure class="bubble bubble--cyan reveal">
+            <blockquote>“Que energia! A equipe não parou um minuto e as crianças ficaram encantadas do início ao fim. Já reservei para o ano que vem!”</blockquote>
+            <figcaption><span class="avatar">👩</span> <b>Camila R.</b> · Festa de 6 anos</figcaption>
+          </figure>
+          <figure class="bubble bubble--magenta reveal">
+            <blockquote>“Organização impecável. Chegaram no horário, montaram tudo e eu consegui curtir a festa da minha filha de verdade.”</blockquote>
+            <figcaption><span class="avatar">👨</span> <b>Rafael M.</b> · Combo Roxo</figcaption>
+          </figure>
+          <figure class="bubble bubble--lime reveal">
+            <blockquote>“Contratamos para o Dia das Crianças da escola e foi um sucesso absoluto. Gincanas adaptadas para cada turma!”</blockquote>
+            <figcaption><span class="avatar">👩‍🏫</span> <b>Profª Juliana</b> · Evento escolar</figcaption>
+          </figure>
+        </div>
+
+        <div class="faq" id="faq">
+          <h2 class="faq__title reveal">Perguntas frequentes</h2>
+          <div class="accordion" id="faq-list"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Seção 5: Rodapé -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <h2>Pronto para garantir a data do seu evento?</h2>
+      <p>Fale com a gente agora e evite ficar de fora da nossa agenda!</p>
+      <a class="btn btn--wa btn--xl" id="footer-cta" data-wa="Olá! Quero garantir a data do meu evento.">
+        <svg class="wa-icon" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 3C9 3 3.3 8.7 3.3 15.7c0 2.2.6 4.4 1.7 6.3L3 29l7.2-1.9c1.8 1 3.9 1.5 5.9 1.5 7 0 12.7-5.7 12.7-12.7S23 3 16 3zm0 23.2c-1.9 0-3.8-.5-5.4-1.5l-.4-.2-4.3 1.1 1.1-4.2-.3-.4c-1.1-1.7-1.6-3.6-1.6-5.5C5.1 9.9 10 5.1 16 5.1S26.9 10 26.9 16 22 26.2 16 26.2zm6-8.1c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-1.9-1.8-2.3-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.3.3-.6.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8s1.2 3.2 1.4 3.5c.2.2 2.4 3.6 5.7 5 .8.3 1.4.5 1.9.7.8.3 1.5.2 2.1.1.6-.1 1.9-.8 2.2-1.5.3-.8.3-1.4.2-1.5-.1-.2-.3-.3-.6-.4z"/></svg>
+        (62) 98456-8686
+      </a>
+      <div class="footer__bottom">
+        <a href="#topo" class="logo logo--light"><img src="assets/logo.png" alt="Logotipo Brincadeiras Incríveis" class="logo__img logo__img--lg" width="140" height="140" loading="lazy" /></a>
+        <small>© <span id="year"></span> Brincadeiras Incríveis. Todos os direitos reservados.</small>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Formulário rápido antes do WhatsApp -->
+  <dialog class="lead" id="lead-modal" aria-labelledby="lead-title">
+    <form id="lead-form" class="lead__form" novalidate>
+      <button type="button" class="lead__close" id="lead-close" aria-label="Fechar">×</button>
+      <h2 id="lead-title">Monte seu orçamento 🎉</h2>
+      <p class="lead__sub">Responda rapidinho e continue a conversa no WhatsApp.</p>
+      <label for="lead-combo">Combo</label>
+      <select id="lead-combo" name="combo"></select>
+      <label for="lead-oficina">Qual oficina você quer? *</label>
+      <select id="lead-oficina" name="oficina" required></select>
+      <label for="lead-criancas">Quantidade de crianças *</label>
+      <input id="lead-criancas" name="criancas" type="number" min="1" max="500" inputmode="numeric" placeholder="Ex.: 20" required />
+      <button type="submit" class="btn btn--wa btn--lg" id="lead-submit">🟢 Enviar no WhatsApp</button>
+    </form>
+  </dialog>
+
+  <!-- Botão flutuante WhatsApp -->
+  <a class="wa-float" id="wa-float" data-wa="Olá! Vim pelo site e quero saber mais." aria-label="Falar no WhatsApp">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 3C9 3 3.3 8.7 3.3 15.7c0 2.2.6 4.4 1.7 6.3L3 29l7.2-1.9c1.8 1 3.9 1.5 5.9 1.5 7 0 12.7-5.7 12.7-12.7S23 3 16 3zm0 23.2c-1.9 0-3.8-.5-5.4-1.5l-.4-.2-4.3 1.1 1.1-4.2-.3-.4c-1.1-1.7-1.6-3.6-1.6-5.5C5.1 9.9 10 5.1 16 5.1S26.9 10 26.9 16 22 26.2 16 26.2zm6-8.1c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-1.9-1.8-2.3-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.3.3-.6.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8s1.2 3.2 1.4 3.5c.2.2 2.4 3.6 5.7 5 .8.3 1.4.5 1.9.7.8.3 1.5.2 2.1.1.6-.1 1.9-.8 2.2-1.5.3-.8.3-1.4.2-1.5-.1-.2-.3-.3-.6-.4z"/></svg>
+    <span class="wa-float__ping"></span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>

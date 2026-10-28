@@ -1,0 +1,6 @@
+.vercel/
+.serena/
+.codebase-memory/
+node_modules/
+.DS_Store
+Thumbs.db
